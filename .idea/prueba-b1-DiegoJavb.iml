@@ -24,12 +24,14 @@
       <excludeFolder url="file://$MODULE_DIR$/prueba/vendor/jakub-onderka/php-console-highlighter" />
       <excludeFolder url="file://$MODULE_DIR$/prueba/vendor/laravel/framework" />
       <excludeFolder url="file://$MODULE_DIR$/prueba/vendor/laravel/tinker" />
+      <excludeFolder url="file://$MODULE_DIR$/prueba/vendor/lcobucci/jwt" />
       <excludeFolder url="file://$MODULE_DIR$/prueba/vendor/league/commonmark" />
       <excludeFolder url="file://$MODULE_DIR$/prueba/vendor/league/flysystem" />
       <excludeFolder url="file://$MODULE_DIR$/prueba/vendor/league/mime-type-detection" />
       <excludeFolder url="file://$MODULE_DIR$/prueba/vendor/mockery/mockery" />
       <excludeFolder url="file://$MODULE_DIR$/prueba/vendor/monolog/monolog" />
       <excludeFolder url="file://$MODULE_DIR$/prueba/vendor/myclabs/deep-copy" />
+      <excludeFolder url="file://$MODULE_DIR$/prueba/vendor/namshi/jose" />
       <excludeFolder url="file://$MODULE_DIR$/prueba/vendor/nesbot/carbon" />
       <excludeFolder url="file://$MODULE_DIR$/prueba/vendor/nikic/php-parser" />
       <excludeFolder url="file://$MODULE_DIR$/prueba/vendor/nunomaduro/collision" />
@@ -99,6 +101,7 @@
       <excludeFolder url="file://$MODULE_DIR$/prueba/vendor/symfony/var-dumper" />
       <excludeFolder url="file://$MODULE_DIR$/prueba/vendor/theseer/tokenizer" />
       <excludeFolder url="file://$MODULE_DIR$/prueba/vendor/tijsverkoyen/css-to-inline-styles" />
+      <excludeFolder url="file://$MODULE_DIR$/prueba/vendor/tymon/jwt-auth" />
       <excludeFolder url="file://$MODULE_DIR$/prueba/vendor/vlucas/phpdotenv" />
       <excludeFolder url="file://$MODULE_DIR$/prueba/vendor/webmozart/assert" />
     </content>

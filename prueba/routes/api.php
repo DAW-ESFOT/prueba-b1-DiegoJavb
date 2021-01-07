@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Http\Request;
+use App\Genre;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,6 +14,17 @@ use Illuminate\Http\Request;
 |
 */
 
-Route::middleware('auth:api')->get('/user', function (Request $request) {
-    return $request->user();
+//Route::middleware('auth:api')->get('/user', function (Request $request) {
+//    return $request->user();
+//});
+Route::post('register', 'UserController@register');
+Route::post('login', 'UserController@authenticate');
+Route::get('genres', 'GenreController@index');
+
+Route::group(['middleware' => ['jwt.verify']], function () {
+    Route::get('genres/{genre}', 'GenreController@show');
+    Route::post('genres', 'GenreController@store');
+    Route::put('genres/{genre}', 'GenreController@update');
+    Route::delete('genres/{genre}', 'GenreController@delete');
+
 });
